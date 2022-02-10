@@ -16,6 +16,8 @@ metadata:
         - vexpress-a9
         - vexpress-tc2
         - ifc6410
+        - qemu_x86_64
+        - qemu
 params:
     TST_CMDFILES: syscalls,mm,math,timers,fcntl-locktests,ipc,fsx,fs,hugetlb,io,nptl,pty,containers,fs_bind,filecaps,admin_tools,connectors
 
